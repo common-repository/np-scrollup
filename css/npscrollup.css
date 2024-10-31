@@ -1,0 +1,42 @@
+#scrollUp {
+	position:absolute;
+    bottom: 100px;
+	text-decoration:none;
+	font-size: 18px;
+	line-height: 18px;
+	text-align:center;
+	border:transparent;
+	height: 20px;
+	width: 130px;
+	cursor:default;
+}
+
+#np_main_icon {
+	border:transparent;
+	cursor:pointer;
+}
+#npscroll_text_contaner{display:none;}
+
+
+/*Tablet Layout:768px*/
+
+@media only screen and (min-width:768px)and (max-width:990px){
+	
+#scrollUp{right: 10px;}
+	
+}
+
+
+/*Mobile Layout:320px*/
+@media only screen and (max-width:767px){
+	
+	#npscroll_text_contaner_before{display:none;}
+	
+}
+
+/*Wide Mobile Layout:480px*/
+@media only screen and (min-width:480px)and (max-width:767px){
+	
+	#npscroll_text_contaner_before{display:none;}
+	
+}
